@@ -11,6 +11,8 @@ The analysis focuses on:
 * Model interpretability
 * Identification of key risk factors associated with depression
 
+This project is part of a professional transition toward Artificial Intelligence and Data Science in psychology, with a focus on model interpretability and responsible use of predictive models in mental health contexts.
+
 ## 2. Data Preprocessing
 
 The raw dataset was cleaned and prepared prior to model training. The main steps included:
@@ -156,6 +158,13 @@ Outputs include:
 Exponentiated coefficients are interpreted as **odds ratios**, representing the multiplicative change in the odds of depression.
 
 ## 5. Results
+
+| Model               |   AUC  |
+| ------------------- | ------ |
+| Logistic Regression | 0.9229 |
+| Random Forest       | 0.9162 |
+
+The table shows the measurements of ROC-AUC for the Logistic Regression Model and Random Forest.
 
 ### 5.1 Random Forest: Permutation Importance
 
